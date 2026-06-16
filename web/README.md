@@ -27,6 +27,12 @@ web/
 ### 한 번에 (권장)
 프로젝트 루트의 **`start_web.bat`** 더블클릭 → 백엔드·프론트가 각각 새 창에서 뜨고 브라우저가 열린다.
 
+**새로 clone한 PC도 더블클릭 한 번이면 된다.** 첫 실행 시 `start_web.bat`이 자동으로:
+Python 3.12·Node.js LTS가 없으면 `winget`으로 설치 → `.venv` 생성 + 백엔드 의존성(`web/backend/requirements.txt`) 설치 → `npm install`까지 부트스트랩한 뒤 서버를 띄운다.
+이후 실행은 기존 `.venv`/`node_modules`를 재사용해 바로 뜬다.
+> winget이 Python/Node를 갓 설치한 경우 현재 창의 PATH가 갱신 안 돼 "창을 닫고 다시 실행하라"는 안내가 나올 수 있다 — 그대로 한 번 더 실행하면 된다.
+> `best.pt`(19MB) 추론 가중치는 git에 포함돼 있어 별도 다운로드가 필요 없다.
+
 ### 수동
 ```powershell
 # 백엔드
