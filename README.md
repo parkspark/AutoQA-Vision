@@ -82,29 +82,10 @@
 ## 9. 기대 효과 & 향후 확장
 - 🤖 **기대 효과:** 사람의 눈을 대신해 화면을 보고 문제를 진단하는 AI 테스터. 업데이트 시 발생할 수 있는 예기치 못한 사이드 이펙트를 실제 유저가 악용하기 전에 탐지.
 - 🚀 **향후 확장:** 
-  - v4 학습(PSU 교체 후) · pseudo-label 검수 추가로 가려진 파티원 recall 보강
+  - v4 모델 개선 · pseudo-label 검수 추가로 가려진 파티원 recall 보강
   - 모션블러 프레임 정제 · 프레임별 위치·신뢰도 기반 **렌더링 지연 정량 리포트**
-
----
+ 
 
 ## 💻 데모 실행 방법
-
-### 1) 라이브 스크린샷 탐지 (Flask Web App)
-이미지 업로드 시 v3 모델이 `character`·`user_id` 를 탐지하고 “내 캐릭터”를 선정합니다.
-```cmd
-webapp\start_webapp.bat
-# http://127.0.0.1:5000 접속
-```
-
-### 2) 동영상 추적 데모
-동영상에서 ByteTrack + hysteresis 락으로 캐릭터를 추적합니다.
-```cmd
-webapp\start_video_webapp.bat
-# http://127.0.0.1:5001 접속
-```
-
-### 3) 포트폴리오 앱 (Streamlit)
-이 프로젝트의 소개 페이지(현재 문서와 유사한 내용)를 엽니다.
-```cmd
-.venv\Scripts\streamlit run portfolio_app.py
-```
+1.  **라이브 스크린샷 탐지 (Flask Web App)**
+    `start_web.bat` 실행 후 `http://127.0.0.1:5000` 접속
