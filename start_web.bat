@@ -119,5 +119,8 @@ timeout /t 8 >nul
 start http://localhost:3000
 
 echo.
-echo Two console windows opened. Close each window to stop the servers.
+echo Two console windows opened (Backend + Frontend). Close each window to stop the servers.
+echo If a server window flashed and closed, it crashed - it now stays open to show the error.
+echo.
+pause
 endlocal
