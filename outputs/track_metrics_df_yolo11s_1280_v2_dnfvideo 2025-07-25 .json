@@ -1,0 +1,10 @@
+{
+  "video": "dnfvideo 2025-07-25 00-03-38-255.avi",
+  "weights": "df_yolo11s_1280_v2",
+  "frames": 3841,
+  "my_located_rate": 0.847,
+  "any_char_rate": 0.89,
+  "any_uid_rate": 0.917,
+  "id_switches": 263,
+  "max_coast_frames": 126
+}

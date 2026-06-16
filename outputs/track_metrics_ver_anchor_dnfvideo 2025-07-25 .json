@@ -1,0 +1,14 @@
+{
+  "method": "ver_anchor",
+  "video": "dnfvideo 2025-07-25 00-03-38-255.avi",
+  "weights": "df_yolo11s_1280_v3",
+  "frames": 3841,
+  "my_located_rate": 0.574,
+  "any_char_rate": 0.893,
+  "any_uid_rate": 0.908,
+  "reid_recoveries": 55,
+  "hard_resets": 1,
+  "nick_confirms": 3,
+  "max_coast_frames": 130,
+  "anchor_id_final": 661
+}

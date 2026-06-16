@@ -1,0 +1,17 @@
+{
+  "video": "dnfvideo 2025-04-22 22-19-30-148.mp4",
+  "method": "hsv_color + iou_tracker",
+  "hsv_lo": [
+    18,
+    80,
+    120
+  ],
+  "hsv_hi": [
+    40,
+    255,
+    255
+  ],
+  "frames": 600,
+  "det_rate": 1.0,
+  "unique_ids": 19
+}
